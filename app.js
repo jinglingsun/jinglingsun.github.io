@@ -16,9 +16,9 @@ function renderPublications() {
     <article class="publication-card">
       <div class="pub-meta"><span>${p.year}</span><span>${p.venue}</span></div>
       <div>
-        <h3>${p.pdf ? `<a href="${p.pdf}" target="_blank" rel="noopener">${p.title}</a>` : p.title}</h3>
+        <h3>${p.link || p.pdf ? `<a href="${p.link || p.pdf}" target="_blank" rel="noopener">${p.title}</a>` : p.title}</h3>
         <p>${emphasizeName(p.authors)}</p>
-        ${p.pdf ? `<a class="paper-link" href="${p.pdf}" target="_blank" rel="noopener">PDF</a>` : ''}
+        ${p.link || p.pdf ? `<a class="paper-link" href="${p.link || p.pdf}" target="_blank" rel="noopener">${p.link ? 'Link' : 'PDF'}</a>` : ''}
       </div>
       <span class="pub-arrow" aria-hidden="true"></span>
     </article>`).join('');
