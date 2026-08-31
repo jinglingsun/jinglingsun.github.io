@@ -29,10 +29,11 @@ window.siteData = {
     {year:"2027", title:"Foundations of Software Engineering (FSE)", detail:"Program Committee · Research Papers"},
     {year:"2025-2026", title:"Transactions on Software Engineering (TSE)", detail:"Reviewer"},
     {year:"2025-2026", title:"Transactions on Software Engineering and Methodology (TOSEM)", detail:"Reviewer"},
-    {year:"2024–25", title:"International Symposium on Software Reliability Engineering (ISSRE)", detail:"Program Committee"},
+    {year:"2024-2025", title:"International Symposium on Software Reliability Engineering (ISSRE)", detail:"Program Committee · Research Papers"},
+    {year:"2024", title:"Formal Aspects of Computing (FAC)", detail:"Reviewer"},
     {year:"2023", title:"Journal of Systems & Software (JSS)", detail:"Reviewer"},
     {year:"2023", title:"Frontiers of Computer Science (FCS)", detail:"Reviewer"},
     {year:"2021", title:"Journal of Computer Science and Technology (JCST)", detail:"Reviewer"},
-    {year:"2021–", title:"International Workshop on Advances in Mobile App Analysis (A-Mobile)", detail:"Publicity Chair"}
+    {year:"2021-2025", title:"International Workshop on Advances in Mobile App Analysis (A-Mobile)", detail:"Publicity Chair"}
   ]
 };
